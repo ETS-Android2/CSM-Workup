@@ -1,0 +1,206 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margem_media" >
+
+        <LinearLayout
+            android:id="@+id/infoGeraisIntroducao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67"
+                android:text="@string/label_fonte_livro"
+                android:textSize="@dimen/titulos_extra_pequenos"
+                android:textColor="@color/cinzaTitulos" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67" 
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margem_grande"
+                android:layout_marginBottom="@dimen/margem_grande">
+
+                <ImageView
+                    android:id="@+id/imgVisualizarPanturrilha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/saude" />
+
+                <TextView
+                    android:id="@+id/tituloInfoGerais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="@string/tutorial_informacoes_gerais"
+                    android:textColor="@color/VerdePetroleoEscuro"
+                    android:textSize="@dimen/titulos_pequenos"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:background="@drawable/shape_bg_branco"
+                android:gravity="left"
+                android:text="@string/tutorial_informacoes_gerais_introducao"
+                android:textAlignment="center"
+                android:textColor="@color/cinzaTitulos"
+                android:textSize="@dimen/titulos_extra_pequenos" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67"
+                android:layout_marginTop="@dimen/margem_grande" >
+
+                <ImageView
+                    android:id="@+id/imgVisualizarBicepsContraido"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/adipometro" />
+
+                <TextView
+                    android:id="@+id/infoGeraisEquipamentosTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"                    
+                    android:shadowColor="#000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="@string/tutorial_informacoes_gerais_equipamentos_titulo"
+                    android:textColor="@color/VerdePetroleoEscuro"
+                    android:textSize="@dimen/titulos_pequenos"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/infoGeraisEquipamentos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:background="@drawable/shape_bg_branco"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="@color/cinzaTitulos"
+                android:textSize="@dimen/titulos_extra_pequenos"
+                android:text="@string/tutorial_informacoes_gerais_equipamentos" />
+            <TextView
+                android:id="@+id/infoGeraisTecnicasDeManuseioDoInstrumentoTitulos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:layout_marginTop="@dimen/margem_grande"
+                android:text="@string/tutorial_informacoes_gerais_tecnicas_manuseio_do_instrumento_titulo"
+                android:textColor="@color/VerdePetroleoEscuro"
+                android:textSize="@dimen/titulos_pequenos"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/infoGeraisTecnicasDeManuseioDoInstrumento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:background="@drawable/shape_bg_branco"
+                android:gravity="left"
+                android:textColor="@color/cinzaTitulos"
+                android:textSize="@dimen/titulos_extra_pequenos"
+                android:text="@string/tutorial_informacoes_gerais_tecnicas_manuseio_do_instrumento" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margem_grande" >
+
+                <ImageView
+                    android:id="@+id/imgVisualizarBicepsRelaxado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/critical" />
+
+                <TextView
+                    android:id="@+id/infoGeraisComoMinimizarOErroTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="@string/tutorial_informacoes_gerais_como_minimizar_o_erro_titulo"
+                    android:textColor="@color/VerdePetroleoEscuro"
+                    android:textSize="@dimen/titulos_pequenos"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/infoGeraisComoMinimizarOErro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:background="@drawable/shape_bg_branco"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="@color/cinzaTitulos"
+                android:textSize="@dimen/titulos_extra_pequenos"
+                android:text="@string/tutorial_informacoes_gerais_como_minimizar_o_erro" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margem_grande"
+                android:layout_marginTop="@dimen/margem_grande"
+                android:layout_weight="0.67"
+                android:background="@drawable/shape_gradient_verde_petroleo"
+                android:text="OK"
+                android:onClick="ok"
+                android:textStyle="bold" />
+            
+        </LinearLayout>
+        
+
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/layout/activity_informacoes_gerais.xml -->

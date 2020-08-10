@@ -1,0 +1,152 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_gradient_verde_petroleo"
+    android:fastScrollEnabled="true"
+    android:persistentDrawingCache="scrolling"
+    android:scrollingCache="true" >
+
+    <LinearLayout
+        android:id="@+id/bgCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:background="@drawable/shape_bg"
+        android:layout_margin="@dimen/margem_pequena"
+        android:layout_marginBottom="@dimen/margem_media"
+        android:persistentDrawingCache="scrolling"
+        android:scrollingCache="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margem_media" >
+
+            <ImageView
+                android:id="@+id/imgFotoCadastroPersonal"
+                android:layout_width="@dimen/imagem_tamanho_pequeno"
+                android:layout_height="@dimen/imagem_tamanho_pequeno"
+                android:layout_margin="@dimen/margem_pequena"
+                android:contentDescription="@string/label_selecionar_foto"
+                android:onClick="tirarFoto"
+                android:src="@drawable/foto"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Switch
+                android:id="@+id/switchPersonalAluno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margem_grande"
+                android:textColor="@color/cinzaTitulos"
+                android:textOff="@string/botao_aluno"
+                android:textOn="@string/botao_personal" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtTelefonePersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/label_telefone"
+            android:inputType="phone"
+             >
+
+            <requestFocus android:layout_width="match_parent" />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtNomeCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_pequena"
+            android:ems="10"
+            android:hint="@string/label_nomeCompleto"
+            android:inputType="textCapWords" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+           
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/RgSexo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/rdSexoMasculino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_sexo_masculino" />
+
+                <RadioButton
+                    android:id="@+id/rdSexoFeminino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_sexo_feminino" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/label_usuario" 
+            />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/label_senha"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/btnConcluirCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1.20"
+            android:background="@drawable/shape_botao_azul"
+            android:onClick="concluirCadastro"
+            android:padding="10dp"
+            android:text="@string/botao_nome_avancar"
+            android:textColor="@color/branco" />
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/layout/activity_cadastrar.xml -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+ <shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+  <gradient
+  android:startColor="#00CC9C"
+  android:centerColor="#04DEAB"
+  android:endColor="#00CC9C"
+  android:angle="270" />
+        <stroke android:width="1dp" android:color="#b7ccdd" />
+
+    <padding android:left="6dp" android:top="6dp" android:right="6dp"
+            android:bottom="6dp" />
+     <margin android:left="15dp" android:top="15dp" android:right="15dp"
+            android:bottom="15dp" />
+        <corners android:radius="4dp" />
+    </shape><!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/drawable-hdpi/shape_gradient_verde_petroleo.xml -->

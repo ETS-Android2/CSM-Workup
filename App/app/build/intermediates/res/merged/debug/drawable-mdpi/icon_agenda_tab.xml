@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/horarios"
+          android:state_selected="true" />
+    
+    <item android:drawable="@drawable/horarios"/>
+
+</selector>
+<!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/drawable-mdpi/icon_agenda_tab.xml -->

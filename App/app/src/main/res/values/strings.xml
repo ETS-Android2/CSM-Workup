@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+<resources>
+
+    <string name="app_name">WorkUp</string>
+    <string name="botao_login_convencional">Login convencional</string>
+    <string name="botao_facebook">Login com facebook</string>
+    <string name="action_settings">Settings</string>
+    <string name="botao_nome_entrar">Entrar</string>
+    <string name="botao_nome_concluir">Concluir</string>
+    <string name="botao_nome_cadastrese">Cadastre-se</string>
+    <string name="botao_nome_avancar">Avançar</string>
+    <string name="botao_nome_atualizar">Atualizar</string>
+    <string name="botao_nome_adicionar">Adicionar</string>
+    <string name="botao_nome_agendar">Agendar</string>
+    <string name="label_aviso_sem_alunos">Você não possui nenhum aluno ainda</string>
+    <string name="label_aviso_sem_treinamentos">Você não possui nenhum treinamento ainda</string>
+    <string name="label_aviso_sem_treinador">Você ainda não possui um treinador</string>
+    <string name="label_fonte_livro">Fonte: Guia prático de avaliação física\nAutores:\n
+        Andréa Silveira da Fontoura\n
+        Charles Marques Formentin\n
+        Everson Alves Abech\n
+        
+        Editora - Phorte
+        Ano - 2008.
+        
+    </string>
+    <string name="label_Aulas_Agendadas">Aulas Agendadas</string>
+    <string name="title_activity_cadastrar_personal">Cadastrar Personal</string>
+    <string name="title_activity_cadastrar_aluno">Cadastrar Aluno</string>
+    <string name="title_activity_home_personal">Personal Trainer</string>
+    <string name="title_activity_home_aluno">Aluno</string>
+    <string name="title_activity_adicionar_aluno">Adicionar</string>
+    <string name="botao_verificar_disponibilidade">Verificar Disponibilidade</string>
+    <string name="label_duracao_aula">Duração da Aula</string>
+     <string name="label_unidade_repeticoes">(unidades)</string>
+     <string name="label_unidade_minutos">(Minutos)</string>
+     
+     <string name="label_editar_exercicios">Editar exercicios</string>
+    
+    <string name="label_resultados">Resultados</string>
+    <string name="label_situacao_coronaria">Situação Coronária</string>
+    <string name="label_questionarioQPAF">Questionario QPAF</string>
+    <string name="label_gordura_corporal">Gordura Corporal</string>
+    <string name="label_perimetria">Perimetria</string>
+    <string name="label_fotos_da_avaliacao">Fotos da Avaliação</string>
+    <string name="label_tipo_de_exercicio">Tipo de Exercício</string>
+    
+
+    <!-- hints -->
+
+    <string name="label_selecionar_foto">Toque para selecionar uma nova foto</string>
+    <string name="label_telefone">Telefone</string>
+    <string name="label_nomeCompleto">Nome Completo</string>
+    <string name="label_dataDeNascimento">Data de Nascimento</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_sexo_masculino">Masculino</string>
+    <string name="label_sexo_feminino">Feminino</string>
+    <string name="label_usuario">Usuário</string>
+    <string name="label_senha">Senha</string>
+    <string name="label_SelecioneData">Selecione a data</string>
+    <string name="label_selecioneHorario">Selecione o Horário</string>
+    <string name="label_digiteLocal">Digite o local da aula</string>
+    <string name="label_buscaAvaliacoes">Digite o usuário do avaliado</string>
+
+    <!-- Perfil do Aluno  Labels -->
+
+    <string name="label_usuario_aluno">Usuário</string>
+    <string name="label_nome_aluno">Nome</string>
+    <string name="label_data_de_nascimento_aluno">Data de Nascimento</string>
+    <string name="label_sexo_aluno">Sexo</string>
+    <string name="botao_acompanhamento">Acompanhamento</string>
+    <string name="botao_preescrever_treinamento">Preescrever Treinamento</string>
+    <string name="label_meus_treinamentos">Meus Treinamentos</string>
+    <string name="title_activity_perfil_personal">Perfil</string>
+    <string name="title_activity_meus_alunos">Meus Alunos</string>
+    <string name="title_activity_marcar_aula">Marcar Aulas</string>
+    <string name="title_activity_agenda">Agenda</string>
+    <string name="title_activity_confirmar_aula">Confirme sua Aula</string>
+    <string name="label_solicitado_por">Solicitado por:</string>
+    <string name="label_data_aula">Data da Aula</string>
+    <string name="label_horario_aula">Horário da Aula</string>
+    <string name="botao_confirmar">Confirmar</string>
+    <string name="botao_cancelar">Cancelar</string>
+    <string name="title_activity_gerenciar_treinamentos">Gerenciar Treinamentos</string>
+    <string name="title_activity_organizar_treinamento">Organizar Treinamento</string>
+    <string name="title_activity_novo_exercicio">Novo Exercício</string>
+    <string name="label_cadastrar_novo_exercicio">Cadastrar Novo Exercício</string>
+    <string name="label_exercicio_aerobico">Aeróbico</string>
+    <string name="label_exercicio_anaerobico">Anaeróbico</string>
+    <string name="label_descricao">Descrição</string>
+    <string name="label_descanso">Descanso</string>
+    <string name="label_duracao_exercicio">Duração</string>
+    <string name="label_nome_exercicio">Nome do Exercício</string>
+    <string name="title_activity_organizar_novo_treinamento">Organizar Novo Treinamento</string>
+    <string name="label_repeticoes_exercicio">Repetições</string>
+    <string name="title_activity_buscar_exercicios">Buscar Exercícios</string>
+    <string name="label_novo_treinamento">Novo Treinamento</string>
+    <string name="menu_label_publicar">Publicar</string>
+    <string name="menu_label_adicionar_ao_novo_treinamento">Adicionar ao novo Treinamento</string>
+    <string name="label_nome_do_treinamento">Nome do Treinamento</string>
+    <string name="title_activity_editar_treinamento">Editar Treinamento</string>
+    <string name="title_activity_minhas_avaliacoes">MinhasAvaliacoes</string>
+    <string name="label_avaliacoes">Avaliações</string>
+    <string name="title_activity_avaliar">Avaliar</string>
+    <string name="title_activity_resultado_avaliacao">ResultadoAvaliacao</string>
+    <string name="label_bicepsRelaxadoDireito">Biceps Relaxado (Direito)</string>
+    <string name="label_bicepsRelaxadoEsquerdo">Biceps Relaxado (Esquerdo)</string>
+    <string name="label_bicepsContraidoDireito">Biceps Contraído (Direito)</string>
+    <string name="label_bicepsContraidoEsquerdo">Biceps Contraido (Esquerdo)</string>
+    <string name="label_peito">Peito</string>
+    <string name="label_cintura">Cintura</string>
+    <string name="label_quadril">Quadril</string>
+    <string name="label_abdomen">Abdomen</string>
+    <string name="label_panturrilha">Panturrilha</string>
+    <string name="label_panturrilhaDireita">Panturrilha (Direita)</string>
+    <string name="label_panturrilhaEsquerda">Panturrilha (Esquerda)</string>
+    <string name="label_coxaProximalDireita">Coxa Proximal (Direita)</string>
+    <string name="label_coxaProximalEsquerda">Coxa Proximal (Esquerda)</string>
+    <string name="label_coxaMedialDireita">Coxa Medial (Direita)</string>
+    <string name="label_coxaMedialEsquerda">Coxa Medial (Esquerda)</string>
+    <string name="label_coxaDistalDireita">Coxa Distal (Direita)</string>
+    <string name="label_coxaDistalEsquerda">Coxa Distal (Esquerda)</string>
+    <string name="label_ombro">Ombro</string>
+    <string name="label_antebraco">Antebraço</string>
+    <string name="label_peso">Peso (kg)</string>
+    <string name="label_altura">Altura (cm)</string>
+    <string name="label_idade">Idade</string>
+    <string name="label_abdominal">Abdominal</string>
+    <string name="label_coxa">Coxa</string>
+    <string name="label_triceps">Triceps</string>
+    <string name="label_subscapular">Subscapular</string>
+    <string name="label_suprailiaca">Suprailiaca</string>
+    <string name="label_linhaAxilarMedia">Linha Axilar Média</string>
+    <string name="label_metodoDeCalculo">Metodo De Calculo</string>
+    <string name="label_dobras_cutaneas">Dobras Cutâneas</string>
+    <string name="label_medidas">Medidas Gerais</string>
+    <string name="title_activity_adicionar_personal">AdicionarPersonal</string>
+    <string name="title_activity_buscar_usuario">BuscarUsuario</string>
+    <string name="label_selecionar_usuario">Selecione o usuário que será avaliado</string>
+    <string name="label_local_aula">Local da aula</string>
+    <string name="label_treinamento_aula">Treinamento realizado</string>
+    <string name="botao_iniciar_treinamento">Iniciar Treinamento</string>
+    
+    <string name="botao_treinamento">Treinamento</string>
+    <string name="title_activity_confirmar_inicio_treinamento">Iniciar Treinamento</string>
+    <string name="title_activity_realizar_treinamento">Realizar Treinamento</string>
+    <string name="label_ola">Olá!</string>
+    <string name="label_selecionar_Treinamento">Selecione o treinamento que deseja realizar</string>
+    <string name="label_meus_alunos">Meus Alunos</string>
+    <string name="label_vamos_treinar">Vamos Treinar?</string>
+    <string name="label_preescrever_treinamento">Preescrever treinamento</string>
+    <string name="label_preescrever_treinamento_explicacao">Selecione o treinamento que deseja preescrever para este aluno</string>
+    <string name="title_activity_editar_exercicio">Editar Exercicios</string>
+    <string name="botao_editar">Editar</string>
+    <string name="botao_excluir">Excluir</string>
+    <string name="botao_adicionar_aos_meus_exercicios">Adicionar aos Meus Exercícios</string>
+    <string name="title_activity_calcular">Calcular</string>
+    <string name="title_activity_realizar_exercicio">RealizarExercicio</string>
+    <string name="botao_iniciar_exercicio">Iniciar exercício</string>
+    <string name="botao_finalizar_exercicio">Finalizar Exercício</string>
+    <string name="title_activity_acompanhamento">Acompanhamento</string>
+    <string name="label_acompanhamento">Acompanhamento</string>
+    <string name="label_logout">Logout</string>
+    <string name="botao_excluir_aula">Excluir Aula</string>
+    <string name="botao_login_com_facebook">Login com Facebook</string>
+    <string name="botao_editar_aula">Editar Aula</string>
+    <string name="label_auto_avaliacao">Auto avaliação</string>
+    <string name="label_avaliar_aluno">Avaliar Aluno</string>
+    <string name="label_local_avaliacao">Local da Avaliação</string>
+    <string name="title_activity_meu_personal">MeuPersonal</string>
+    <string name="title_activity_acompanhamento_aluno">AcompanhamentoAluno</string>
+    <string name="title_activity_perfil_aluno">PerfilAluno</string>
+    <string name="title_activity_preescrever_treinamento">PreescreverTreinamento</string>
+    <string name="label_dados_pessoais">Dados Pessoais</string>
+    <string name="title_activity_alterar_dados_pessoais">AlterarDadosPessoais</string>
+    <string name="label_senha_atual">Senha atual</string>
+    <string name="label_nova_senha">Nova senha</string>
+    <string name="label_confirmacao_da_senha">Confirmação da senha</string>
+    <string name="label_alterar_dados_pessoais">Alterar dados pessoais</string>
+    <string name="title_activity_visualisar_treinamento_realizado">Visualisar Treinamentos Realizados</string>
+    <string name="title_activity_visualizar_avaliacao">Visualizar Avaliação</string>
+    <string name="botao_aluno">Aluno</string>
+    <string name="botao_personal">Personal</string>
+    <string name="botao_novoTreinamento">Novo Treinamento</string>
+    <string name="label_warning_cadastrar_novo_treinamento">Você não possui nenhum treinamento Preescrito. Para realizar um treinamento é necessário que seu treinador prescreva a você o treinamento mais adequado.</string>
+    <string name="label_voltar">Voltar</string>
+    <string name="label_adicionar">Adicionar</string>
+    <string name="label_tipo_perfil">Tipo de perfil: </string>
+    <string name="title_activity_aceitar_rejeitar_amigo">AceitarRejeitarAmigo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login_aluno">LoginAluno</string>
+    <string name="title_activity_gerenciador_login">GerenciadorLogin</string>
+    <string name="label_descricao_workup">O WorkUp é um sistema que permite que você se relacione muito melhor com as suas atividades físicas. Nela você pode gerenciar seus treinamentos e acompanhar seu desempenho e evolução. Não perca mais tempo!</string>
+    <string name="label_descricao_experimente_agora">Experimente agora!</string>
+    <string name="title_activity_solicitacoes_de_amizade">SolicitacoesDeAmizade</string>
+    <string name="label_realizada_em">Realizada em:</string>
+    <string name="label_realizado_em">Realizado em:</string>
+    <string name="label_voce_nao_possui_solicitacoes_de_amizade">Você não possui nenhuma solicitação de amizade</string>
+    <string name="title_activity_avaliar_perimetria">AvaliarPerimetria</string>
+    <string name="title_activity_questionario_qpaf">QuestionarioQPAF</string>
+    <string name="title_activity_situacao_coronaria">SituacaoCoronaria</string>
+    <string name="label_sim">Sim</string>
+    <string name="label_nao">Não</string>
+    <string name="label_questao_um"> Alguma vez seu médico disse que você sofre de uma condição cardíaca e que somente deveria realizar exercícios físicos recomendados pelo médico? </string>
+    <string name="label_questao_dois"> Você sente dor no tórax quando realiza atividade física?  </string>
+    <string name="label_questao_tres">No mês passado, sentiu dor torácica enquanto não realizava atividade física? </string>
+    <string name="label_questao_quatro">Você perde o equilíbrio devido a tonturas ou perde a consciência?  </string>
+    <string name="label_questao_cinco">Você tem problemas nos ossos ou nas articulações (por exemplo, na região lombar da coluna vertebral, nos joelhos ou quadris) que poderiam ser agravados por uma mudança no nível de atividade física?  </string>
+    <string name="label_questao_seis">Seu médico prescreveu recentemente remédios (ex:diurético) para sua pressão arterial ou condição cardíaca?  </string>
+    <string name="label_questao_sete">Você conhece qualquer outra razão para não realizar atividade física? </string>
+    <string name="label_objetivos_do_treinamento">Selecione o objetivo do seu treinamento:</string>
+    <string name="label_emagrecimento">Emagrecimento</string>
+    <string name="label_hipertrofia_muscular">Hipertrofia Muscular</string>
+    <string name="label_aumento_da_qualidade_de_vida">Aumento da qualidade de vida</string>
+    <string name="label_pressao_de_repouso">Pressão arterial de repouso</string>
+    <string name="label_pressao_maxima">Pressão arterial de máxima</string>
+    <string name="label_pressao_sistolica">Pressão Sistólica</string>
+    <string name="label_pressao_diastolica">Pressão Diastólica</string>
+    <string name="title_activity_nova_avaliacao">NovaAvaliacao</string>
+    <string name="title_activity_concluir_avaliacao">ConcluirAvaliacao</string>
+    <string name="label_parabens">Parabéns</string>
+    <string name="label_voce_concluiu_sua_avaliacao">Você concluiu sua avaliação... Clique no botão abaixo para concluir sua avaliação e salva-la no servidor</string>
+    <string name="label_salvar_avaliacao">Salvar Avaliação</string>
+    <string name="label_isto_pode_levar_algum_tempo">Isto pode levar algum tempo ...</string>
+
+    <!-- Tutoriais strings -->
+
+    <string name="tutorial_informacoes_gerais">Informações Gerais</string>
+    <string name="tutorial_medida_tricipital">Medida Tricipital</string>
+    <string name="tutorial_medida_subscapular">Medida Subescapular</string>
+    <string name="tutorial_medida_axilar_media">Medida Axilar Media</string>
+    <string name="tutorial_medida_peitoral">Medida Peitoral</string>
+    <string name="tutorial_medida_abdominal">Medida Abdominal</string>
+    <string name="tutorial_medida_suprailiaca">Medida Supra-ilíaca</string>
+    <string name="tutorial_medida_coxa">Medida Coxa</string>
+    <string name="tutorial_medida_panturrilha">Medida Panturrilha</string>
+    <string name="tutorial_informacoes_gerais_introducao">As medidas de dobras cutâneas são um importante instrumento para a análise da composição corporal
+        Existe uma relação entre a gordura subcutânea e a gordura corporal total, além do porcentual de gordura obtido com a medida das dobras. Podemos também
+        utilizar a soma de alumas dobras cutâneas para estimar a gordura corporal total.\n
+        A técnica das dobras cutâneas é uma das mais utilizadas para a verificação da composição corporal. Ela é mais acessível
+        (Custo e tempo), mais rápida e seus resultados podem ser plenamente adaptados para a faixa etária, sexo etc. 
+        É a partir do porcentual de gordura que podemos estabelecer os demais componentes corporais (músculos, ossos etc.).
+        Essa tecnica requer prática do avaliador, para que, cada vez mais reduza o erro. A utilização de euqações adequadas é um fator muito importante para 
+        que os resultado sejam consistentes.\n</string>
+    <string name="tutorial_informacoes_gerais_equipamentos_titulo">Equipamentos</string>
+    <string name="tutorial_informacoes_gerais_equipamentos">O equipamento necessário para 
+        medir as dobras cutâneas é comumente chamado
+        de compasso de dobras. O compasso pode ser clinico ou científico.\n
+        Normalmente, o compasso científico apresenta uma precisão de escala mais fracionada 
+        (0,1 mm), enquanto o compasso clínico apresenta uma escala de 0,5 mm. Isso não 
+        compromete a medida de maneira a impedir a utilização dos compassos clínicos.</string>
+    <string name="tutorial_informacoes_gerais_tecnicas_manuseio_do_instrumento_titulo">        Técnicas de manuseio do instrumento</string>
+    <string name="tutorial_informacoes_gerais_tecnicas_manuseio_do_instrumento">        1 - Tire todas as medidas do lado direito do corpo;\n
+        2 - Cuidadosamente, identifique e marque os locais de medidas;\n
+        3 - Segure a dobra cutânea firmemente entre o polegar e o indicador (podendo também pegar com o dedo médio) esquerdos.
+        Esses dedos devem ter um afastamento, formando a letra "L";\n
+        4 - Os dedos devem sempre ficar apontados para baixo quando a dobra for vertical, apontados para a esquerda quando for horizontal
+        e apontados para baixo na diagonal quando a dobra for diagonal;\n
+        5- O compasso deve ser segurado com a mão direita e colocado 1 cm abaixo do pinçamento com os dedos, na mesma profundidade destes;
+        6- mantenha a dobra segurada enquanto a medida é feita;\n
+        7 - Deixe o compasso na posição de medida cerca de , no máximo, 4 segundos;\n 
+        8 - Evite duas medidas consecutivas no mesmo local;\n
+        9 - Preferencialmente, faça três tomadas em circuito e utilize a mediana (ou seja, exclua os valores maior e menor e utilize como 
+        resultado final o valor mediano);\n
+        10 - Atenção ao direcionamento das dobras: Elas podem ser verticais, horizontais e diagonais (ou oblíquas).
+        O direcionamento é da dobra, e não do compasso. Nas dobras verticais, por exemplo, o compasso assume uma posição horizontal,
+        mas devemos dar importancia à direção da dobra. Normalmente, está relacionada a direção das fibras musculares
+        em que a dobra está sendo medida;\n
+        11 - Evite mensurar as medidas do avaliado após este ter realizado atividade física;\n
+        12 - Cabe ressaltar que não existe diferença nos procedimentos técnicos de medida das dobras 
+        em crianças, os adultos ou idosos. Os procedimentos são os mesmos; o que difere é a equação a ser utilizada para o cálculo
+        de percentual de gordura.\n</string>
+    <string name="tutorial_informacoes_gerais_como_minimizar_o_erro_titulo">         Como minimizar o erro utilizando o método da técnica de dobras?</string>
+    <string name="tutorial_informacoes_gerais_como_minimizar_o_erro">       1- Pratique, no mínimo, entre 50 e 100 clientes;\n
+       2- Treine sempre com um técnico bem capacitado e experiente;\n
+       3- Siga os procedimentos-padrões;\n
+       4- Marque todos os pontos antes de medir;\n
+       5- Use as equações específicas para encontrar os resultados;\n
+       6- Esteja atento as novas informações sobre este assunto.\n</string>
+    <string name="tutorial_dobra_triceps">A dobra do tríceps é medida na linha média da parte posterior do braço, sobre o músculo
+        tríceps, no ponto médio entre o acrômio e o nível inferior do processo olécrano da ulna, é uma dobra
+        vertica.
+        Usando uma fita métrica, com o cotovelo flexoionado em 90 graus, marque o ponto médio. A dobra é medida
+        com o braço estendido e relaxado.
+        O avaliador fica em pé, atrás do avaliado, e segura a dobra com a mão esquerda, ficando com os 
+        dedos polegar e indicador apontados para baixo.</string>
+    <string name="tutorial_dobra_subscapular">É uma dobra diagonal inclinada ínfero-lateralmente,
+          aproximadamente 45 graus do plano horizontal. O ponto é, em média, 1 cm abaixo do ângulo inferior
+          da escápula. O avaliado fica em pé, com o peso distribuido em ambos os pés. Para localizar
+          o ponto, deve-se palpar a borda lateral da escápula (de cima para baixo) até localizar o ângulo 
+          inferior. Essa dobra é próxima à do tríceps.</string>
+    <string name="tutorial_dobra_axilar_media"> É uma dobra Horizontal, localizada na junção
+          xifoesternal (ponto onde a cartilagem costal das costelas 5-6 articulam-se com o esterno),
+          levemente acima do processo xifóide, na linha média axilar do tronco. Devemos identificar 
+          o processo xifóide e, paroximadamente, um dedo a cima dele é o ponto a ser medido. Então, transferimos o ponto para 
+          a lateral do tronco. O avaliado pode fazer uma leve abducao do ombro (até 90 graus)
+          para facilitar o acesso ao ponto.</string>
+    <string name="tutorial_dobra_peitoral"> No homem, o ponto é a distancia média entre a prega
+          axilar anterior e o mamilo; é uma dobra diagonal. Na mulher, o ponto se localiza um ppouco mais acima que no homem,
+          2 cm abaixo da linha axilar. O indivíduo fica com o braços relaxados ao lado do corpo
+          para que o ponto seja identificado e devidamente marcado.</string>
+    <string name="tutorial_dobra_abdominal">Para medir a dobra abdominal, o avaliado, em pé, com o peso
+          distribuido em ambos os pés, deve relaxar a musculatura abdominal e a respiração deve-se
+          manter normal. O ponto fica em 3 cm ao lado e 1 cm abaixo da cicatriz umbilical, 
+          do lado direito, e é uma dobra horizontal.</string>
+    <string name="tutorial_dobra_suprailiaca">A dobra cutânea supra-ilíaca é medida na linha média axilar
+          imediatamente (aproximadamente 1 cm) acima da crista ilíaca. O avaliado fica com os pés juntos
+          em uma posição ereta, com os braços dependentes ao lado. Se necessário, faz uma leve abdução do ombro para melhor acesso ao ponto.
+          É uma dobra diagonal, aproximadamente 45 graus da horizontal. As partes do compasso são aplicadas 
+                a mais ou menos 1 cm de onde os dedos estão segurando</string>
+    <string name="tutorial_dobra_coxa">O ponto está localizado na linha média da parte
+          anterior da coxa, entre o vinco inguinal e a borda proximal da patela. O indivíduo
+          flexiona o quadril para ajudar a localizacao do vinco inguinal. É uma dobra vertical.
+          O peso do corpo é transferido para o outro pé, enquanto a perna do lado da medida
+          fica relaxada, com o joelho levemente flexionado e o pé no piso plano. O avaliado
+          pode segurar-se nos ombros do avaliador ou no encosto de uma cadeira.</string>
+    <string name="tutorial_dobra_panturrilha">A dobra vertical é feita na face medial da perna, 
+              no ponto de maior circunferência. O avaliado deve estar sentado com os pés apoiados no solo
+              ou suspenso.</string>
+    <string name="title_activity_acompanhamento_avaliacao">AcompanhamentoAvaliacao</string>
+    <string name="title_activity_gerenciar_acompanhamento">GerenciarAcompanhamento</string>
+    <string name="label_hoje">Hoje</string>
+    <string name="label_neste_mes">Neste Mês</string>
+    <string name="label_todas">Todas</string>
+    <string name="label_confirmada">Confirmada!</string>
+    <string name="label_cancelada">Cancelada</string>
+    <string name="label_aguardando_confirmacao">Aguardando Confirmação...</string>
+    <string name="hint_buscar">Search</string>
+    <string name="label_data_da_aula">Data da Aula:\n</string>
+    <string name="label_hora_da_aula">Hora da Aula:\n</string>
+    <string name="label_duracao">Duração:\n</string>
+    <string name="label_minutos">" minutos"</string>
+    <string name="mensagens_aula_confirmada">Aula Confirmada!</string>
+    <string name="mensagens_erro_ao_cancelar">Erro ao cancelar!</string>
+    <string name="mensagens_agendado_com_sucesso">agendado com sucesso!</string>
+    <string name="mensagens_falha_ao_agendar_aula">"falha ao agendar aula "</string>
+    <string name="mensagens_horario_disponivel">O horário está disponível</string>
+    <string name="mensagens_horario_indisponivel">"Desculpe, seu treinador não está disponível neste horário "</string>
+    <string name="label_atencao">Ops...</string>
+    <string name="mensagem_data_anterior_ao_dia_atual">Você não pode marcar uma aula com data anterior a hoje</string>
+    <string name="label_ok">OK</string>
+    <string name="mensagens_metodo_exclusivo_para_homens">Desculpe este método é indicado apenas para homens</string>
+    <string name="label_masculino">Masculino</string>
+    <string name="label_feminino">Feminino</string>
+    <string name="label_jackson_4">Jackson 4</string>
+    <string name="label_jackson_6">Jackson 6</string>
+    <string name="label_jackson_7_atletas">Jackson 7 Atletas</string>
+    <string name="mensagens_metodo_exclusivo_para_mulheres">Desculpe este método é indicado apenas para Mulheres</string>
+    <string name="label_jackson_4_atletas">Jackson 4 Atletas</string>
+    <string name="mensagens_slaughter">Slaughter</string>
+    <string name="label_guedes">Guedes</string>
+    <string name="label_selecione_o_metodo">Selecione o método</string>
+    <string name="mensagens_qual_aplicativo_usar">Deseja usar qual aplicativo para importar sua foto?</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_galeria">Galeria</string>
+    <string name="mensagens_sem_suporte_para_esta_acao">Whoops - your device doesn\'t support the crop action!</string>
+    <string name="label_durnin">Durnin</string>
+    <string name="mensagens_sem_resposta">Sem resposta</string>
+    <string name="label_objetivo_do_treinamento">"Objetivo do Treinamento: "</string>
+    <string name="label_pressao_sistolica_maxima">"Pressão sistólica Máxima: "</string>
+    <string name="label_pressao_diastolica_maxima">"Pressão diastólica Máxima: "</string>
+    <string name="label_pressao_sistolica_de_repouso">"Pressão sistólica de Repouso: "</string>
+    <string name="label_diastolica_de_repouso">"Pressão diastólica de Repouso: "</string>
+    <string name="label_dobra_abdominal">"Dobra Abdominal: "</string>
+    <string name="label_dobra_coxa">"Dobra Coxa: "</string>
+    <string name="label_dobra_peito">"Dobra Peito: "</string>
+    <string name="label_dobra_suprailiaca">"Dobra Suprailiaca: "</string>
+    <string name="label_dobra_subescapular">"Dobra Subscapular: "</string>
+    <string name="label_dobra_triceps">"Dobra Triceps: "</string>
+    <string name="label_dobra_linha_axilar_media">"Dobra Linha Axilar Média: "</string>
+    <string name="label_dobra_panturrilha">"Dobra Panturrilha: "</string>
+    <string name="label_resultado_avaliacao">"Resultado avaliação: "</string>
+    <string name="label_biceps_contraido_direito">"Biceps Contraido Direito: "</string>
+    <string name="label_coxa_distal_esquerda">"Coxa Distal Esquerda: "</string>
+    <string name="label_biceps_contraido_esquerdo">"Biceps Contraido Esquerdo: "</string>
+    <string name="label_coxa_proximal_esquerdo">"Coxa Proximal Esquerda : "</string>
+    <string name="label_coxa_proximal_direito">"Coxa Proximal Direita : "</string>
+    <string name="label_panturrilha_esquerda">"Panturrilha Esquerda : "</string>
+
+</resources>

@@ -1,0 +1,84 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_bg" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margem_grande"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_parabens"
+            android:textColor="@color/VerdePetroleo"
+            android:textStyle="bold"
+            android:textSize="@dimen/titulos_medios" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSalvarAvaliacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_botao_azul"
+        android:text="@string/label_salvar_avaliacao"
+        android:padding="@dimen/margem_pequena" />
+
+    <ProgressBar
+        android:id="@+id/pgrssSalvarAvaliacao"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_below="@+id/btnSalvarAvaliacao"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pgrssSalvarAvaliacao"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/label_isto_pode_levar_algum_tempo"
+        android:textSize="@dimen/titulos_extra_pequenos" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSalvarAvaliacao"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignRight="@+id/linearLayout1"
+        android:layout_marginBottom="46dp"
+        android:gravity="center"
+        android:text="@string/label_voce_concluiu_sua_avaliacao"
+        android:textSize="@dimen/titulos_extra_pequenos" />
+
+</RelativeLayout>

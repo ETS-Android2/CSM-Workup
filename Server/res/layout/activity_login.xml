@@ -1,0 +1,166 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_gradient_verde_petroleo"
+        >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+         android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblTituloAplicativo"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margem_extra_grande"
+        android:layout_marginBottom="@dimen/margem_extra_grande"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/branco"
+        android:textSize="@dimen/titulos_grandes" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblTituloAplicativo"
+        android:layout_margin="@dimen/margem_media"
+        android:background="@drawable/linear_layout_bg"
+        android:gravity="center"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:orientation="vertical"
+        android:padding="@dimen/margem_media" >
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/label_usuario"
+            android:shadowColor="#000000"
+            android:shadowDx="2" />
+
+        <EditText
+            android:id="@+id/senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/label_senha"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margem_media" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00" >
+
+                <Button
+                    android:id="@+id/btnEntrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_pequena"
+                    android:layout_weight="0.34"
+                    android:background="@drawable/shape_botao_azul"
+                    android:onClick="loginPrepare"
+                    android:padding="@dimen/margem_pequena"
+                    android:text="@string/botao_nome_entrar"
+                    android:textColor="@color/branco" />
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_pequena"
+                    android:layout_weight="0.34"
+                    android:onClick="cancelar"
+                    android:background="@drawable/shape_botao_vermelho"
+                    android:text="@string/botao_cancelar"
+                    android:textColor="@color/branco" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCadastrese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margem_pequena"
+                android:layout_weight="0.00"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="10dp"
+                android:onClick="cadastrar"
+                android:text="@string/botao_nome_cadastrese"
+                android:textColor="@color/branco" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/margem_media" >
+
+            <RadioGroup
+                android:id="@+id/rdgLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rdLogarPersonal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/botao_personal" />
+
+                <RadioButton
+                    android:id="@+id/rdLogarAluno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/botao_aluno" />
+            </RadioGroup>
+        </LinearLayout>
+        -->
+
+</RelativeLayout>
+
+</ScrollView>

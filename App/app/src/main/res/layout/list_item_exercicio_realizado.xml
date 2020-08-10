@@ -1,0 +1,81 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="left" 
+    android:background="@drawable/shape_listview_branco"
+    android:padding="@dimen/margem_media"
+	>
+
+        <TextView
+            android:id="@+id/txtInicioExercicioRealizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtNomeExercicioRealizado"
+            android:layout_below="@+id/txtNomeExercicioRealizado"
+            android:text="12h 23min"
+            android:textSize="@dimen/titulos_extra_pequenos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/cinzaTitulos" />
+
+        <TextView
+            android:id="@+id/txtTempoDeExecucao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtFimExercicioRealizado"
+            android:layout_below="@+id/txtFimExercicioRealizado"
+            android:text="20 min"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/cinzaTitulos"
+            android:textSize="@dimen/titulos_extra_pequenos" />
+
+        <ImageView
+            android:id="@+id/imgFotoExercicioRealizado"
+            android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+            android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/margem_pequena"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="31dp"
+            android:contentDescription="@string/label_exercicio_aerobico"
+            android:src="@drawable/haltere_logo" />
+
+        <TextView
+            android:id="@+id/txtNomeExercicioRealizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgFotoExercicioRealizado"
+            android:layout_toRightOf="@+id/imgFotoExercicioRealizado"
+            android:text="NomeDoExercicio"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/preto"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFimExercicioRealizado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtInicioExercicioRealizado"
+            android:layout_toRightOf="@+id/imgFotoExercicioRealizado"
+            android:text="12h 40min"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/cinzaTitulos"
+            android:textSize="@dimen/titulos_extra_pequenos" />
+
+</RelativeLayout>

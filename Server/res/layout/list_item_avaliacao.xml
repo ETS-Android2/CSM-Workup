@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_listview_branco" >
+
+    <ImageView
+        android:id="@+id/imgIconeAvaliacao"
+        android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+        android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+        android:contentDescription="desc"
+        android:src="@drawable/prancheta"
+	    android:layout_margin="@dimen/margem_pequena" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtDataAvaliacao"
+        android:layout_alignTop="@+id/imgIconeAvaliacao"
+        android:text="@string/label_realizada_em" 
+        android:textColor="@color/cinzaTitulos"
+        android:textSize="@dimen/titulos_extra_pequenos"/>
+
+    <TextView
+        android:id="@+id/txtDataAvaliacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_toRightOf="@+id/imgIconeAvaliacao"
+        android:text="22/10/1990"
+        android:textStyle="bold"
+        android:textSize="@dimen/titulos_pequenos" />
+
+    <TextView
+        android:id="@+id/txtHoraAvaliacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDataAvaliacao"
+        android:layout_toRightOf="@+id/imgIconeAvaliacao"
+        android:text="19:00:00"
+        android:textColor="@color/cinzaTitulos"
+        android:textSize="@dimen/titulos_extra_pequenos" />
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnPreescreverTreinamento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margem_media"
+        android:background="@drawable/shape_bg_branco"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblSelecionarTreinamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_preescrever_treinamento"
+            android:textColor="@color/cinzaTitulos"
+            android:textSize="@dimen/titulos_pequenos" />
+
+        <Spinner
+            android:id="@+id/spnSelecionarTreinamentoPreescrever"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_grande" />
+
+        <TextView
+            android:id="@+id/lblSelecionarTreinamentoExplicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+            android:text="@string/label_preescrever_treinamento_explicacao"
+            android:textAlignment="center"
+            android:textColor="@color/cinzaTitulos" />
+
+        <TextView
+            android:id="@+id/lblAvisoSemTreinamentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_warning_cadastrar_novo_treinamento"
+            android:textColor="@color/vermelho"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPreescreverTreinamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margem_grande"
+        android:background="@drawable/shape_botao_azul"
+        android:onClick="preescreverTreinamento"
+        android:text="@string/botao_confirmar"
+        android:textColor="@color/branco" />
+
+</RelativeLayout>

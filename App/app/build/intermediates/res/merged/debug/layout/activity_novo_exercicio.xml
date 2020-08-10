@@ -1,0 +1,185 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg" >
+     
+     <LinearLayout
+            android:id="@+id/novoExercicioItens"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margem_pequena"
+            android:background="@drawable/shape_bg_branco"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="@string/label_cadastrar_novo_exercicio"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cinzaTitulos" />
+
+            <RadioGroup
+                android:id="@+id/rdgAddTipoExercicio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp" >
+
+                <RadioButton
+                    android:id="@+id/rdBtAddAerobico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/label_exercicio_aerobico" />
+
+                <RadioButton
+                    android:id="@+id/rdBtAddAnaerobico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_exercicio_anaerobico" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edtCadastrarNomeExercicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/label_nome_exercicio" >
+
+                <requestFocus />
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" 
+                android:layout_margin="@dimen/margem_media">
+
+                <LinearLayout
+                    android:id="@+id/lytControlarDescansoExercicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                      android:layout_margin="@dimen/margem_pequena" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_descanso" />
+
+                    <NumberPicker
+                        android:id="@+id/nmbCadastrarDescansoExercicio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_unidade_minutos"
+                        android:textColor="@color/cinzaTitulos" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lytControlarDuracaoExercicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/margem_pequena" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_duracao_exercicio" />
+
+                    <NumberPicker
+                        android:id="@+id/nmbCadastrarDuracaoExercicio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_unidade_minutos"
+                        android:textColor="@color/cinzaTitulos" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lytControlarRepeticoes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_pequena"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/label_repeticoes_exercicio" />
+
+                    <NumberPicker
+                        android:id="@+id/nmbCadastrarRepeticoesExercicio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/label_unidade_repeticoes"
+                        android:textColor="@color/cinzaTitulos" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtCadastrarDescricaoExercicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/label_descricao" />
+            
+             <Button
+		        android:id="@+id/btnAdicionarExercicio"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentBottom="true"
+		        android:layout_centerHorizontal="true"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/shape_botao_azul"
+		        android:padding="7sp"
+		        android:text="@string/botao_nome_adicionar"
+		        android:textColor="@color/branco" />
+        </LinearLayout>
+ 
+
+   
+
+</ScrollView><!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/layout/activity_novo_exercicio.xml -->

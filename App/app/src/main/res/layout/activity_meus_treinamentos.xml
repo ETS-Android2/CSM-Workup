@@ -1,0 +1,79 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/shape_bg" 
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/lstMeusTreinamentos"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/lblMeusTreinamentos"
+            android:dividerHeight="0dp"
+            android:listSelector="@drawable/shape_listview_branco" >
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/lblMeusTreinamentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_margin="@dimen/margem_media"
+            android:text="@string/label_meus_treinamentos"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/cinzaTitulos" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lytAvisoSemTreinamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+            android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+            android:layout_weight="0.42"
+            android:alpha="0.5"
+            android:src="@drawable/treinamento" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_grande"
+            android:layout_weight="0.42"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:text="@string/label_aviso_sem_treinamentos"
+            android:textColor="@color/cinzaTitulos" />
+    </LinearLayout>
+
+</LinearLayout>

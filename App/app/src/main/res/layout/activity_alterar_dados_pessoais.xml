@@ -1,0 +1,106 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" 
+    android:background="@drawable/shape_bg">
+    
+     <TextView
+        android:id="@+id/tituloAlterarDadosPessoais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margem_grande"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_alterar_dados_pessoais"
+        android:textAlignment="center"
+        android:textSize="@dimen/titulos_pequenos"
+        android:textStyle="bold" />
+        
+    <LinearLayout
+        android:id="@+id/formularioAlterarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tituloAlterarDadosPessoais"
+        android:background="@drawable/shape_bg_branco"
+        android:layout_margin="@dimen/margem_grande"
+        android:padding="@dimen/margem_grande"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+            android:text="@string/label_senha_atual"
+            android:textColor="@color/cinzaTitulos" />
+
+        <EditText
+            android:id="@+id/edtSenhaAntiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_nova_senha"
+            android:textColor="@color/cinzaTitulos"
+            android:layout_margin="@dimen/margem_media" />
+
+        <EditText
+            android:id="@+id/edtNovaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_confirmacao_da_senha"
+            android:textColor="@color/cinzaTitulos"
+            android:layout_margin="@dimen/margem_media" />
+
+        <EditText
+            android:id="@+id/edtConfirmarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAtualizarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_confirmar"
+        android:layout_below="@id/formularioAlterarDados"
+        android:background="@drawable/shape_botao_azul"
+        android:textColor="@color/branco"
+        android:layout_margin="@dimen/margem_media" 
+		android:onClick="atualizarDadosPessoais"/>
+
+   
+
+</RelativeLayout>

@@ -1,0 +1,381 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:18:1-264:12
+	package
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:19:5-28
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:21:5-31
+	android:versionCode
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:20:5-29
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:18:11-69
+uses-sdk
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:23:5-25:41
+	android:targetSdkVersion
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:25:9-38
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:24:9-35
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:28:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:29:5-65
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:29:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:30:22-78
+application
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:34:6-262:19
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:38:9-41
+	android:allowBackup
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:36:9-35
+	android:icon
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:37:9-45
+	android:theme
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:39:9-39
+service#br.com.Utilitarios.WorkUpService
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:41:9-47:19
+	android:enabled
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:43:13-35
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:46:13-45
+	android:exported
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:44:13-36
+	android:icon
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:45:13-45
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:42:13-60
+activity#br.com.GUI.perfil.Login
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:50:13-51
+activity#br.com.GUI.perfil.Cadastrar
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:55:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:54:13-55
+activity#br.com.GUI.perfil.HomePersonal
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:57:9-60:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:59:13-65
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:58:13-58
+activity#br.com.GUI.perfil.HomeAluno
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:63:13-62
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:62:13-55
+activity#br.com.GUI.perfil.AdicionarAluno
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:65:9-68:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:67:13-67
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:66:13-60
+activity#br.com.GUI.perfil.PerfilPersonal
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:69:9-72:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:71:13-67
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:70:13-60
+activity#br.com.GUI.perfil.MeusAlunos
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:73:9-76:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:75:13-63
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:74:13-56
+activity#br.com.GUI.aulas.ConfirmarAula
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:77:9-80:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:79:13-66
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:78:13-58
+activity#br.com.GUI.aulas.MarcarAula
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:81:9-84:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:83:13-63
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:82:13-55
+activity#br.com.GUI.aulas.Agenda
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:85:9-88:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:87:13-58
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:86:13-51
+activity#br.com.GUI.treinamentos.GerenciarEdicaoDeExercicios
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:89:9-92:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:91:13-74
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:90:13-79
+activity#br.com.GUI.treinamentos.MeusTreinamentos
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:93:9-96:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:95:13-73
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:94:13-68
+activity#br.com.GUI.treinamentos.NovoExercicio
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:97:9-100:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:99:13-66
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:98:13-65
+activity#br.com.GUI.treinamentos.MeusExercicios
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:101:9-104:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:103:13-78
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:102:13-66
+activity#br.com.GUI.treinamentos.GerenciarEdicaoDeTreinamentos
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:105:9-108:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:107:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:106:13-81
+activity#br.com.GUI.treinamentos.EditarTreinamentoExerciciosAerobicos
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:109:9-112:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:111:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:110:13-88
+activity#br.com.GUI.treinamentos.EditarTreinamentoExerciciosAnaerobicos
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:113:9-116:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:115:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:114:13-90
+activity#br.com.GUI.avaliacoes.AvaliacoesAluno
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:117:9-120:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:119:13-69
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:118:13-65
+activity#br.com.GUI.avaliacoes.AvaliarGorduraCorporal
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:121:9-124:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:123:13-59
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:122:13-72
+activity#br.com.GUI.perfil.AdicionarPersonal
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:125:9-128:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:127:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:126:13-63
+activity#br.com.GUI.perfil.BuscarUsuario
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:129:9-132:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:131:13-66
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:130:13-59
+activity#br.com.GUI.treinamentos.ConfirmarInicioTreinamento
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:133:9-136:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:135:13-80
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:134:13-78
+activity#br.com.GUI.treinamentos.RealizarTreinamento
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:137:9-140:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:139:13-72
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:138:13-71
+activity#br.com.GUI.treinamentos.EditarExercicio
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:141:9-144:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:143:13-68
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:142:13-67
+activity#br.com.GUI.treinamentos.RealizarExercicio
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:145:9-148:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:147:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:146:13-69
+activity#br.com.GUI.treinamentos.AcompanhamentoTreinamentoFragment
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:149:9-152:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:151:13-66
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:150:13-85
+activity#br.com.GUI.perfil.MeuPersonal
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:153:9-156:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:155:13-64
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:154:13-57
+activity#br.com.GUI.treinamentos.AcompanhamentoTreinamento
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:157:9-160:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:159:13-72
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:158:13-77
+activity#br.com.GUI.perfil.PerfilAluno
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:161:9-164:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:163:13-64
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:162:13-57
+activity#br.com.GUI.treinamentos.PreescreverTreinamento
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:165:9-168:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:167:13-75
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:166:13-74
+activity#br.com.GUI.perfil.AlterarDadosPessoais
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:169:9-172:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:171:13-74
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:170:13-66
+activity#br.com.GUI.treinamentos.VisualisarTreinamentoRealizados
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:173:9-176:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:175:13-84
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:174:13-83
+activity#br.com.GUI.avaliacoes.VisualizarAvaliacao
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:177:9-180:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:179:13-72
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:178:13-69
+activity#br.com.GUI.perfil.AceitarRejeitarAmigo
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:181:9-184:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:183:13-74
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:182:13-66
+activity#br.com.GUI.perfil.SelecionarTipoDeLogin
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:185:9-193:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:187:13-45
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:186:13-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:188:13-192:29
+action#android.intent.action.MAIN
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:189:17-69
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:189:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:191:17-77
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:191:27-74
+activity#br.com.GUI.perfil.SolicitacoesDeAmizade
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:194:9-197:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:196:13-75
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:195:13-67
+activity#br.com.GUI.avaliacoes.AvaliarPerimetria
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:198:9-201:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:200:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:199:13-67
+activity#br.com.GUI.avaliacoes.QuestionarioQPAF
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:202:9-205:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:204:13-69
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:203:13-66
+activity#br.com.GUI.avaliacoes.SituacaoCoronaria
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:206:9-209:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:208:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:207:13-67
+activity#br.com.GUI.avaliacoes.NovaAvaliacao
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:210:9-213:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:212:13-66
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:211:13-63
+activity#br.com.GUI.avaliacoes.ConcluirAvaliacao
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:214:9-217:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:216:13-70
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:215:13-67
+activity#br.com.GUI.avaliacoes.tutoriais.InformacoesGerais
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:218:9-221:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:220:13-64
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:219:13-77
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaTricipital
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:222:9-225:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:224:13-63
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:223:13-76
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaSubscapular
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:226:9-229:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:228:13-64
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:227:13-77
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaAxilarMedia
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:230:9-233:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:232:13-65
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:231:13-77
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaPeitoral
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:234:9-237:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:236:13-61
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:235:13-74
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaAbdominal
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:238:9-241:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:240:13-62
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:239:13-75
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaSuprailiaca
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:242:9-245:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:244:13-64
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:243:13-77
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaCoxa
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:246:9-249:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:248:13-57
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:247:13-70
+activity#br.com.GUI.avaliacoes.tutoriais.MedidaPanturrilha
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:250:9-253:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:252:13-64
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:251:13-77
+activity#br.com.GUI.avaliacoes.AcompanhamentoAvaliacao
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:254:9-257:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:256:13-76
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:255:13-73
+activity#br.com.GUI.treinamentos.GerenciarAcompanhamento
+ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:258:9-261:20
+	android:label
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:260:13-76
+	android:name
+		ADDED from /home/vinicius/Dropbox/Projeto Workup/Backups Projeto/actualProject/app/src/main/AndroidManifest.xml:259:13-75

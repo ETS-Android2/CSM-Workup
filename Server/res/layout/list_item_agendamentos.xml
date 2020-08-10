@@ -1,0 +1,72 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_listview_branco"
+    android:gravity="left" >
+    
+    <ImageView
+        android:id="@+id/imgAulaAgendada"
+        android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+        android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+      	android:layout_margin="@dimen/margem_pequena"
+        android:contentDescription="@string/label_Aulas_Agendadas" />
+
+    <TextView
+        android:id="@+id/listView_nomeAluno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgAulaAgendada"
+        android:layout_toRightOf="@+id/imgAulaAgendada"
+        android:text="Ligia Maria dos Santos"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/preto"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/listView_dataAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listView_nomeAluno"
+        android:layout_toRightOf="@+id/imgAulaAgendada"
+        android:text="22/10/1990"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/cinzaTitulos" />
+
+    <TextView
+        android:id="@+id/listView_horaAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listView_dataAula"
+        android:layout_below="@+id/listView_dataAula"
+        android:text="22h 33min"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/cinzaTitulos" />
+
+    <TextView
+        android:id="@+id/listView_confirmacaoAula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgAulaAgendada"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:text="Confirmada!"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/cinzaTitulos" />
+
+</RelativeLayout>

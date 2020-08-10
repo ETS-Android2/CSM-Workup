@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margiimagem_tamanho_extra_extra_pequenon">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="titulos_extra_grandes">110dp</dimen>
+    <dimen name="titulos_grandes">70dp</dimen>
+    <dimen name="titulos_medios">35dp</dimen>
+    <dimen name="titulos_pequenos">20dp</dimen>
+    <dimen name="titulos_extra_pequenos">13dp</dimen>
+    <dimen name="titulos_extra_extra_pequenos">12dp</dimen>
+    <dimen name="margem_pequena">5dp</dimen>
+    <dimen name="margem_media">10dp</dimen>
+    <dimen name="margem_grande">20dp</dimen>
+    <dimen name="margem_extra_grande">50dp</dimen>
+    <dimen name="imagem_tamanho_extra_pequeno_menos">45dp</dimen>
+    <dimen name="imagem_tamanho_extra_pequeno">60dp</dimen>
+    <dimen name="imagem_tamanho_x_extra_pequeno">30dp</dimen>
+    <dimen name="imagem_tamanho_pequeno">100dp</dimen>
+    <dimen name="imagem_tamanho_medio">200dp</dimen>
+    <dimen name="imagem_tamanho_grande">300dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+</resources>

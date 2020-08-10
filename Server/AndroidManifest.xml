@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.WorkUp"
+    android:versionCode="10"
+    android:versionName="10.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+ 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    
+     <application
+        
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme"
+        >
+        <service
+            android:name="br.com.Utilitarios.WorkUpService"
+            android:enabled="true"
+            android:exported="true"
+            android:icon="@drawable/profile"
+            android:label="@string/app_name" >
+        </service>
+
+        <activity
+            android:name="br.com.GUI.perfil.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.Cadastrar"
+            android:label="@string/title_activity_cadastrar_personal" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.HomePersonal"
+            android:label="@string/title_activity_home_personal" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.HomeAluno"
+            android:label="@string/title_activity_home_aluno" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.AdicionarAluno"
+            android:label="@string/title_activity_adicionar_aluno" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.PerfilPersonal"
+            android:label="@string/title_activity_perfil_personal" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.MeusAlunos"
+            android:label="@string/title_activity_meus_alunos" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.aulas.ConfirmarAula"
+            android:label="@string/title_activity_confirmar_aula" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.aulas.MarcarAula"
+            android:label="@string/title_activity_marcar_aula" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.aulas.Agenda"
+            android:label="@string/title_activity_agenda" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.GerenciarEdicaoDeExercicios"
+            android:label="@string/title_activity_gerenciar_treinamentos" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.MeusTreinamentos"
+            android:label="@string/title_activity_organizar_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.NovoExercicio"
+            android:label="@string/title_activity_novo_exercicio" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.MeusExercicios"
+            android:label="@string/title_activity_organizar_novo_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.GerenciarEdicaoDeTreinamentos"
+            android:label="@string/title_activity_editar_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.EditarTreinamentoExerciciosAerobicos"
+            android:label="@string/title_activity_editar_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.EditarTreinamentoExerciciosAnaerobicos"
+            android:label="@string/title_activity_editar_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.AvaliacoesAluno"
+            android:label="@string/title_activity_minhas_avaliacoes" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.AvaliarGorduraCorporal"
+            android:label="@string/title_activity_avaliar" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.AdicionarPersonal"
+            android:label="@string/title_activity_adicionar_personal" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.BuscarUsuario"
+            android:label="@string/title_activity_buscar_usuario" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.ConfirmarInicioTreinamento"
+            android:label="@string/title_activity_confirmar_inicio_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.RealizarTreinamento"
+            android:label="@string/title_activity_realizar_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.EditarExercicio"
+            android:label="@string/title_activity_editar_exercicio" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.RealizarExercicio"
+            android:label="@string/title_activity_realizar_exercicio" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.AcompanhamentoTreinamentoFragment"
+            android:label="@string/title_activity_acompanhamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.MeuPersonal"
+            android:label="@string/title_activity_meu_personal" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.AcompanhamentoTreinamento"
+            android:label="@string/title_activity_acompanhamento_aluno" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.PerfilAluno"
+            android:label="@string/title_activity_perfil_aluno" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.PreescreverTreinamento"
+            android:label="@string/title_activity_preescrever_treinamento" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.AlterarDadosPessoais"
+            android:label="@string/title_activity_alterar_dados_pessoais" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.VisualisarTreinamentoRealizados"
+            android:label="@string/title_activity_visualisar_treinamento_realizado" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.VisualizarAvaliacao"
+            android:label="@string/title_activity_visualizar_avaliacao" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.AceitarRejeitarAmigo"
+            android:label="@string/title_activity_aceitar_rejeitar_amigo" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.SelecionarTipoDeLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.GUI.perfil.SolicitacoesDeAmizade"
+            android:label="@string/title_activity_solicitacoes_de_amizade" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.AvaliarPerimetria"
+            android:label="@string/title_activity_avaliar_perimetria" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.QuestionarioQPAF"
+            android:label="@string/title_activity_questionario_qpaf" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.SituacaoCoronaria"
+            android:label="@string/title_activity_situacao_coronaria" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.NovaAvaliacao"
+            android:label="@string/title_activity_nova_avaliacao" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.ConcluirAvaliacao"
+            android:label="@string/title_activity_concluir_avaliacao" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.InformacoesGerais"
+            android:label="@string/tutorial_informacoes_gerais" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaTricipital"
+            android:label="@string/tutorial_medida_tricipital" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaSubscapular"
+            android:label="@string/tutorial_medida_subscapular" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaAxilarMedia"
+            android:label="@string/tutorial_medida_axilar_media" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaPeitoral"
+            android:label="@string/tutorial_medida_peitoral" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaAbdominal"
+            android:label="@string/tutorial_medida_abdominal" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaSuprailiaca"
+            android:label="@string/tutorial_medida_suprailiaca" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaCoxa"
+            android:label="@string/tutorial_medida_coxa" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.tutoriais.MedidaPanturrilha"
+            android:label="@string/tutorial_medida_panturrilha" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.avaliacoes.AcompanhamentoAvaliacao"
+            android:label="@string/title_activity_acompanhamento_avaliacao" >
+        </activity>
+        <activity
+            android:name="br.com.GUI.treinamentos.GerenciarAcompanhamento"
+            android:label="@string/title_activity_gerenciar_acompanhamento" >
+        </activity>
+    </application>
+
+</manifest>

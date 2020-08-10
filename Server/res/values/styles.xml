@@ -1,0 +1,62 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+         
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+
+    
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    	 <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#18c0a8</item>
+      <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+    </style>
+
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#d8d8d8</item>
+        <item name="android:textSize">@dimen/titulos_extra_pequenos</item>
+        <item name="android:fontFamily"></item>
+    </style>
+    
+        <style name="RobotoTextViewStyle" parent="android:Widget">
+    	<item name="android:fontFamily">sans-serif-bold</item>
+	</style>
+
+	<style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+	    <item name="android:fontFamily">sans-serif-bold</item>
+	</style>
+	
+	<style name="RobotoListViewStyle" parent="android:Widget.Holo.ListView">
+	    <item name="android:fontFamily">sans-serif-bold</item>
+	</style>
+     
+
+</resources>

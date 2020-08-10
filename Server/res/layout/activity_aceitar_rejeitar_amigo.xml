@@ -1,0 +1,175 @@
+
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg" >
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <LinearLayout
+            android:id="@+id/cabecalhoAdicionarPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/margem_media"
+            android:gravity="center" >
+			
+            <ImageView
+                android:id="@+id/imgFoto_aceitarRejeitarAmigo"
+                android:layout_width="@dimen/imagem_tamanho_pequeno"
+                android:layout_height="@dimen/imagem_tamanho_pequeno"
+                android:src="@drawable/profile" 
+                android:layout_margin="5dp"
+                android:contentDescription="@string/label_selecionar_foto"
+                />
+             
+            </LinearLayout>
+
+	    <LinearLayout
+	        android:id="@+id/perfilAdicionarPersonal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_above="@+id/btnAdicionarRemoverPersonal"
+	        android:layout_below="@id/cabecalhoAdicionarPersonal"
+	        android:orientation="vertical"
+	        android:background="@drawable/shape_bg_branco"
+	        android:layout_margin="@dimen/margem_media"
+	        android:padding="@dimen/margem_media" >
+
+	        <TextView
+	            android:id="@+id/lblUsuarioPersonal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/label_usuario_aluno"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/cinzaTitulos" 
+	            android:layout_marginBottom="@dimen/margem_pequena"
+	            android:layout_marginLeft="@dimen/margem_pequena"/>
+
+	        <TextView
+	            android:id="@+id/infoUsuario_aceitarRejeitarAmigo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Não disponivel "
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <TextView
+	            android:id="@+id/lblNomePersonal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/label_nome_aluno"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/cinzaTitulos"
+	            android:layout_margin="@dimen/margem_pequena" />
+
+	        <TextView
+	            android:id="@+id/infoNome_aceitarRejeitarAmigo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Não disponivel "
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <TextView
+	            android:id="@+id/lblDataDeNascimentoPersonal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/label_data_de_nascimento_aluno"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/cinzaTitulos" 
+	            android:layout_margin="@dimen/margem_pequena"/>
+
+	        <TextView
+	            android:id="@+id/infoDataDeNascimento_aceitarRejeitarAmigo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Não disponivel "
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <TextView
+	            android:id="@+id/lblSexoPersonal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/label_sexo_aluno"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/cinzaTitulos" 
+	            android:layout_margin="@dimen/margem_pequena"/>
+
+	        <TextView
+	            android:id="@+id/infoSexo_aceitarRejeitarAmigo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Não disponivel "
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	        <TextView
+	            android:id="@+id/lblEmailPersonal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/label_email"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textColor="@color/cinzaTitulos"
+	            android:layout_margin="@dimen/margem_pequena" />
+
+	        <TextView
+	            android:id="@+id/infoEmail_aceitarRejeitarAmigo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Não disponivel "
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	    </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_below="@+id/perfilAdicionarPersonal" >
+
+	            <Button
+	                android:id="@+id/btnAceitarConvite"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="@dimen/margem_media"
+	                android:layout_weight="2.58"
+	                android:background="@drawable/shape_botao_azul"
+	                android:onClick="aceitarConvite"
+	                android:text="@string/botao_nome_adicionar"
+	                android:textColor="@color/branco" />
+
+	            <Button
+	                android:id="@+id/btnRejeitarConvite"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_margin="@dimen/margem_media"
+	                android:layout_weight="2.51"
+	                android:background="@drawable/shape_botao_vermelho"
+	                android:onClick="rejeitarConvite"
+	                android:text="@string/botao_cancelar"
+	                android:textColor="@color/branco" />
+
+	        </LinearLayout>
+    
+</RelativeLayout>
+
+</ScrollView>

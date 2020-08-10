@@ -1,0 +1,424 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margem_media" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" 
+            android:padding="@dimen/margem_pequena"
+             >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/textView2"
+                android:layout_margin="@dimen/margem_media"
+                android:layout_toRightOf="@+id/textView2"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_sete" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao1Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao1Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="1"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/margem_pequena" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margem_pequena"
+                android:layout_toRightOf="@+id/textView2"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_seis" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao2Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao2Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="2"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+            android:layout_weight="0.71"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="3"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView2"
+                android:orientation="vertical" 
+                android:layout_margin="@dimen/margem_pequena"
+            	android:background="@drawable/shape_bg_branco">
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_cinco" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao3Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao3Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+        </RelativeLayout>
+>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+    
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="4"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView2"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margem_pequena" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_quatro" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao4Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao4Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </RelativeLayout>>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="5"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView2"
+                android:orientation="vertical"
+            	android:background="@drawable/shape_bg_branco"
+                android:layout_margin="@dimen/margem_pequena" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_tres" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao5Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao5Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </RelativeLayout>>
+
+        <RelativeLayout
+            android:layout_width="279dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="6"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView2"
+                android:orientation="vertical"
+                android:background="@drawable/shape_bg_branco"
+                android:layout_margin="@dimen/margem_pequena" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_um" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao6Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao6Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </RelativeLayout>>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margem_media"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/shape_botao_facebook"
+                android:padding="@dimen/margem_pequena"
+                android:text="7"
+                android:textColor="@color/branco"
+                android:textSize="@dimen/titulos_grandes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textView2"
+                android:orientation="vertical" 
+				android:background="@drawable/shape_bg_branco"
+                android:layout_margin="@dimen/margem_pequena">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/label_questao_dois" />
+
+                <RadioGroup
+                    android:id="@+id/rdgQuestao7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_media"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao7Sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/label_sim" />
+
+                    <RadioButton
+                        android:id="@+id/rdQuestao7Nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_nao" />
+                </RadioGroup>
+            </LinearLayout>
+
+        </RelativeLayout>>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/layout/activity_questionario_qpaf.xml -->

@@ -1,0 +1,490 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:background="@drawable/shape_bg_branco"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblMetodoDeCalculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/label_metodoDeCalculo"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cinzaTitulos" />
+
+            <Spinner
+                android:id="@+id/spnMetodoDeCalculo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <requestFocus />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/shape_bg_branco"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/margem_media" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margem_pequena"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <NumberPicker
+                    android:id="@+id/nmbPeso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/label_peso" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margem_pequena"
+                android:background="@drawable/shape_bg_branco">
+
+                <NumberPicker
+                    android:id="@+id/nmbAltura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_altura"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margem_pequena"
+                 android:background="@drawable/shape_bg_branco" >
+
+                <NumberPicker
+                    android:id="@+id/nmbIdade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txtIdade"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_idade"
+                     android:gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/shape_bg_branco"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/margem_media" >
+
+            <RelativeLayout
+                android:id="@+id/lytPanturrilha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraPanturrilha"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/txtDobraPanturrilha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/label_panturrilha"
+                        android:inputType="numberDecimal" />
+
+                    <SeekBar
+                        android:id="@+id/skDobraPanturrilha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margem_grande"
+                        android:layout_marginTop="@dimen/margem_media"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraPanturrilha"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_dobras_cutaneas"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/cinzaTitulos" />
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraAbdominal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraAbdominal"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/edtDobraAbdomen"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/label_abdomen"
+                        android:inputType="numberDecimal" >
+                    </EditText>
+
+                    <SeekBar
+                        android:id="@+id/skDobraAbdomen"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginBottom="@dimen/margem_grande"
+                        android:layout_marginTop="@dimen/margem_media"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraAbdominal"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraCoxa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraCoxa"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/edtDobraCoxa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/label_coxa"
+                        android:inputType="numberDecimal" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <SeekBar
+                        android:id="@+id/skDobraCoxa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margem_grande"
+                        android:layout_marginTop="@dimen/margem_media" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraCoxa"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraSubscapular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+                
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraSubscapular"
+                    android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/edtDobraSubscapular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margem_pequena"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/label_subscapular"
+                    android:inputType="numberDecimal" />
+
+                <SeekBar
+                    android:id="@+id/skDobraSubscapular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margem_grande"
+                    android:layout_marginTop="@dimen/margem_media"
+                    android:layout_weight="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraSubscapular"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraPeito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraPeito"
+                    android:orientation="vertical" >
+                
+                <EditText
+                    android:id="@+id/edtDobraPeito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/label_peito"
+                    android:inputType="numberDecimal" />
+
+                <SeekBar
+                    android:id="@+id/skDobraPeito"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margem_grande"
+                    android:layout_marginTop="@dimen/margem_media"
+                    android:layout_weight="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraPeito"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraLinhaAxilarMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraLinhaAxilarMedia"
+                    android:orientation="vertical" >
+                
+                <EditText
+                    android:id="@+id/edtDobraLinhaAxilarMedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/label_linhaAxilarMedia"
+                    android:inputType="numberDecimal" />
+
+                <SeekBar
+                    android:id="@+id/skDobraLinhaAxilarMedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margem_grande"
+                    android:layout_marginTop="@dimen/margem_media"
+                    android:layout_weight="1" />
+                
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraLinhaAxilarMedia"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraTriceps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraTriceps"
+                    android:orientation="vertical" >
+                
+                <EditText
+                    android:id="@+id/edtDobraTriceps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/label_triceps"
+                    android:inputType="numberDecimal" />
+
+                <SeekBar
+                    android:id="@+id/skDobraTriceps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margem_grande"
+                    android:layout_marginTop="@dimen/margem_media"
+                    android:layout_weight="1" />
+                
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraTriceps"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lytTomadaDobraSuprailiaca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg_branco"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgTutorialTomarDobraSuprailiaca"
+                    android:orientation="vertical" >
+                
+                <EditText
+                    android:id="@+id/edtDobraSuprailiaca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/label_suprailiaca"
+                    android:inputType="numberDecimal" />
+
+                <SeekBar
+                    android:id="@+id/skDobraSuprailiaca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margem_grande"
+                    android:layout_marginTop="@dimen/margem_media"
+                    android:layout_weight="1" />
+
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imgTutorialTomarDobraSuprailiaca"
+                    android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/margem_media"
+                    android:src="@drawable/ajuda" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/layout/activity_avaliar_gordura_corporal.xml -->

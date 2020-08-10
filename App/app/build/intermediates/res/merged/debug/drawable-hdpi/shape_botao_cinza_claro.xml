@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape>
+        
+        <solid android:color="#cccccc"  android:angle="270.0"/>
+        <corners  android:radius="6dp" />
+    </shape>
+  </item>
+  
+  <item android:bottom="30dp" android:top="2dp" android:left="2dp" android:right="2dp">
+    <shape>
+        <solid android:color="#dddddd"/>
+        <corners 
+            android:topLeftRadius="4dp" android:topRightRadius="4dp"
+            
+           />
+     </shape>
+  </item>
+</layer-list>
+<!-- From: file:/home/vinicius/Dropbox/Projeto%20Workup/Backups%20Projeto/actualProject/app/src/main/res/drawable-hdpi/shape_botao_cinza_claro.xml -->

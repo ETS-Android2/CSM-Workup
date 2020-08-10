@@ -1,0 +1,243 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_bg" >
+    
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/lblResultadosVisualizarAvaliacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/label_resultados"
+            android:textColor="@color/VerdePetroleo"
+            android:textSize="@dimen/titulos_medios" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape_bg_branco" 
+            android:padding="@dimen/margem_pequena"
+            android:layout_margin="@dimen/margem_media">
+
+            <TextView
+                android:id="@+id/lblSituacaoCoronaria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:textSize="@dimen/titulos_extra_pequenos"
+                android:textColor="@color/cinzaTitulos"
+                android:text="@string/label_situacao_coronaria" />
+
+            <ListView
+                android:id="@+id/lstSituacaoCoronaria"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp" >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:background="@drawable/shape_bg_branco" 
+            android:padding="@dimen/margem_pequena"
+            android:layout_margin="@dimen/margem_media" >
+
+            <TextView
+                android:id="@+id/lblQuestionarioQPAF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="@dimen/titulos_extra_pequenos"
+                android:textColor="@color/cinzaTitulos"
+                android:text="@string/label_questionarioQPAF" />
+
+            <ListView
+                android:id="@+id/lstQuestionarioQPAF"
+                android:layout_width="match_parent"
+                android:layout_height="163dp" >
+
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             android:background="@drawable/shape_bg_branco" 
+            android:padding="@dimen/margem_pequena"
+            android:layout_margin="@dimen/margem_media" >
+
+            <TextView
+                android:id="@+id/lblGorduraCorporal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="@dimen/titulos_extra_pequenos"
+                android:textColor="@color/cinzaTitulos"
+                android:text="@string/label_gordura_corporal" />
+
+            <ListView
+                android:id="@+id/lstGorduraCorporal"
+                android:layout_width="match_parent"
+                android:layout_height="143dp" >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             android:background="@drawable/shape_bg_branco" 
+            android:padding="@dimen/margem_pequena"
+            android:layout_margin="@dimen/margem_media" >
+
+            <TextView
+                android:id="@+id/lblPerimetria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="@dimen/titulos_extra_pequenos"
+                android:textColor="@color/cinzaTitulos"
+                android:text="@string/label_perimetria" />
+
+            <ListView
+                android:id="@+id/lstPerimetria"
+                android:layout_width="match_parent"
+                android:layout_height="149dp" >
+
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             android:background="@drawable/shape_bg_branco" 
+            android:padding="@dimen/margem_pequena"
+            android:layout_margin="@dimen/margem_media" >
+
+            <TextView
+                android:id="@+id/lblFotosDaAvaliacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_fotos_da_avaliacao"
+                android:textColor="@color/cinzaTitulos"
+                android:gravity="center"
+                android:textSize="@dimen/titulos_extra_pequenos" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imgVisualizarBicepsContraido"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+
+                <ImageView
+                    android:id="@+id/imgVisualizarBicepsRelaxado"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imgVisualizarPanturrilha"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+
+                <ImageView
+                    android:id="@+id/imgVisualizarCoxaProximal"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imgVisualizarCoxaMedial"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+
+                <ImageView
+                    android:id="@+id/imgVisualizarCoxaDistal"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/imgVisualizarAntebracoOmbro"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+
+                <ImageView
+                    android:id="@+id/imgVisualizarQuadrilAbdomenPeito"
+                    android:layout_width="@dimen/imagem_tamanho_pequeno"
+                    android:layout_height="@dimen/imagem_tamanho_pequeno"
+                    android:src="@drawable/foto" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_botao_azul"
+            android:padding="10dp"
+            android:text="OK"
+            android:textColor="@color/branco"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

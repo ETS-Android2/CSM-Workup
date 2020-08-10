@@ -1,0 +1,93 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/shape_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margem_media" 
+        android:gravity="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgVisualizarPanturrilha"
+                android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+                android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+                android:src="@drawable/info" />
+
+            <TextView
+                android:id="@+id/infoTutorialDobraAxilarMedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margem_grande"
+                android:gravity="center"
+                android:text="@string/tutorial_medida_axilar_media"
+                android:textColor="@color/VerdePetroleoEscuro"
+                android:textSize="@dimen/titulos_pequenos"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgVisualizarBicepsContraido"
+            android:layout_width="@dimen/imagem_tamanho_grande"
+            android:layout_height="@dimen/imagem_tamanho_grande"
+            android:src="@drawable/img_linha_axilar_media" />
+
+        <TextView
+                android:id="@+id/infoDobraaxilarMedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.81"
+                android:background="@drawable/shape_bg_branco"
+                android:gravity="left"
+                android:textAlignment="center"
+                android:textColor="@color/cinzaTitulos"
+                android:textSize="@dimen/titulos_extra_pequenos"
+                android:text="@string/tutorial_dobra_axilar_media" />
+        
+        <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/label_fonte_livro"
+             android:textColor="@color/cinzaTitulos"
+             android:textSize="@dimen/titulos_extra_pequenos"
+             android:background="@drawable/shape_bg_branco"
+			android:layout_margin="@dimen/margem_media" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margem_grande"
+            android:layout_marginTop="@dimen/margem_grande"
+            android:background="@drawable/shape_gradient_verde_petroleo"
+            android:text="OK"
+            android:onClick="ok"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

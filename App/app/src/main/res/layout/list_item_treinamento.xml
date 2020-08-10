@@ -1,0 +1,60 @@
+<!-- This file is part of WorkUp.
+
+WorkUp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+WorkUp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with WorkUp.  If not, see <http://www.gnu.org/licenses/>. -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/shape_listview_selector" >
+
+    <ImageView
+        android:id="@+id/imgFotoTreinamento"
+        android:layout_width="@dimen/imagem_tamanho_extra_pequeno"
+        android:layout_height="@dimen/imagem_tamanho_extra_pequeno"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/treinamento"
+        android:layout_margin="@dimen/margem_media"
+        android:contentDescription="@string/label_treinamento_aula" />
+
+    <TextView
+        android:id="@+id/txtNomeTreinamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_nome_do_treinamento"
+        android:layout_toRightOf="@+id/imgFotoTreinamento"
+        android:text="NomeDoTreinamento" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lbl_nome_do_treinamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtNomeTreinamento"
+        android:layout_alignTop="@+id/imgFotoTreinamento"
+        android:text="@string/label_nome_do_treinamento"
+        android:textColor="@color/cinzaTitulos"
+        android:textSize="@dimen/titulos_extra_pequenos" />
+
+    <TextView
+        android:id="@+id/txtNumeroDeExercicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgFotoTreinamento"
+        android:layout_alignParentRight="true"
+        android:text="XX Exercicios"
+        android:textColor="@color/VerdePetroleo"
+        android:textSize="@dimen/titulos_extra_pequenos" />
+
+</RelativeLayout>
