@@ -4,6 +4,13 @@
 
 Objective: This paper presents a model of mobile application to assess patients and prescribe physical exercises offering interaction among health professionals and patients. Methods: The project is based on mobile platform and implemented using client-server architecture and cloud computing for data synchronization in different devices. Results: Health professionals and patients tested our application and answered questionnaire. The results indicate that the functionality and usability are satisfactory adhesion to our app design. Conclusion: Our approach may be a candidate model to government agencies to support in prevention of obesity and improve the health indicators of the patient to a healthier life.
 
+# ATTENTION
+
+This project was created in 2015 as a course conclusion project. It has been tested, validated and published as an article in HEALTHINF (Congress of Informatics and Health).
+[Click here to access](https://www.researchgate.net/profile/Charbel-Chedrawi/publication/314208368_ICT_and_Ageing_in_Lebanese_Public_Hospitals_-_A_Resource_based_View_Perspective_on_Capabilities/links/5af334e5a6fdcc0c0306bb92/ICT-and-Ageing-in-Lebanese-Public-Hospitals-A-Resource-based-View-Perspective-on-Capabilities.pdf#page=317)
+
+The Android development environment since 2015 is constantly evolving, so it was not possible to keep this project active and up to date with current platforms. Therefore, when downloading the project you will probably have a lot of difficulties to run it.
+
 
 # Technologies used
 
